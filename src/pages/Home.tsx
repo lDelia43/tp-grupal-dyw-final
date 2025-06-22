@@ -20,9 +20,9 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center text-[--color-primary-dark] mb-12">Atracciones para todas las edades</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Trepadores", img: "/images/trepadores.png" },
-              { title: "Juegos de agua", img: "/images/agua.png" },
-              { title: "Toboganes", img: "/images/toboganes.png" },
+              { title: "Trepadores", img: "/src/assets/images/trepar.jpg" },
+              { title: "Juegos de agua", img: "//src/assets/images/juegos agua.jpg" },
+              { title: "Toboganes", img: "/src/assets/images/tobagua.jpg" },
             ].map((item, idx) => (
               <div key={idx} className="bg-white rounded-xl shadow-md overflow-hidden text-center p-4 hover:scale-105 transition">
                 <img src={item.img} alt={item.title} className="w-full h-48 object-contain mb-4" />
