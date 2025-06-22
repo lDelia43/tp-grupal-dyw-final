@@ -30,6 +30,9 @@ export default function Footer() {
           <div className="mt-2 text-xs">
             Trabajo grupal - Materia Diseño y Desarrollo Web (Comisión 11842 - Grupo 6)
           </div>
+          <div className="mt-1 text-xs font-semibold">
+            PROFESORA: LITOVICUIS, PATRICIA CARINA
+          </div>
         </div>
         {/* Logo UADE */}
         <div className="flex items-center justify-center">
