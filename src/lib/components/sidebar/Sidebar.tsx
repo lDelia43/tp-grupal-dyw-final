@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Activity, Box, Home } from "lucide-react";
+import { Menu, X, Home } from "lucide-react";
 
 const links = [
-  { to: "/avances", label: "Avances", icon: <Activity size={20} /> },
-  { to: "/proyecto", label: "Proyecto", icon: <Box size={20} /> },
   { to: "/", label: "Home", icon: <Home size={20} /> },
 ];
 
