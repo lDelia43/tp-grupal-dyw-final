@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Sidebar from "./lib/components/sidebar/Sidebar";
 import Footer from "./lib/components/footer/Footer";
+import Parque from "./pages/Parque";
+import Contacto from "./pages/Contacto";
+import Boletos from "./pages/Boletos";
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
@@ -27,6 +30,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="/parque" element={<Parque />} />
+              <Route path="/contacto" element={<Contacto />} />
+              <Route path="/Boletos" element={<Boletos />} />
             </Routes>
           </main>
 

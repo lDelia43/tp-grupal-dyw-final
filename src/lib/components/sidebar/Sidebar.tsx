@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Home } from "lucide-react";
+import { Menu, X, Home, Trees, Mail, Ticket } from "lucide-react";
 
 const links = [
   { to: "/", label: "Home", icon: <Home size={20} /> },
+  { to: "/parque", label: "Parque", icon: <Trees size={20} /> },
+  { to: "/contacto", label: "Contacto", icon: <Mail size={20} /> },
+  { to: "/boletos", label: "Boletos", icon: <Ticket size={20} /> }
 ];
 
 interface SidebarProps {
