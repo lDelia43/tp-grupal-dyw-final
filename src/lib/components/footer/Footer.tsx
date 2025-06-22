@@ -2,7 +2,7 @@ import uadeLogo from "../../../assets/images/uade.png"; // Ajusta la ruta si es 
 
 const integrantes = [
   "Leonel Jesus D Elia",
-  "Nombre Apellido 2",
+  "Matias Ariel Lepe",
   "Nombre Apellido 3",
   // Agrega más si es necesario
 ];
