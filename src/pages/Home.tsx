@@ -58,7 +58,7 @@ const Home = () => {
       {/* CTA FINAL */}
       <section className="py-20 bg-[--color-nature] text-white text-center">
         <h2 className="text-3xl font-bold mb-4">¿Listos para la aventura?</h2>
-        <p className="text-lg mb-6">Sumate a la experiencia Trepark y creá recuerdos inolvidables</p>
+        <p className="text-lg mb-6">Sumate a la experiencia Aqualandia y creá recuerdos inolvidables</p>
         <button className="bg-[--color-aqua] text-black px-6 py-3 rounded-full font-semibold hover:bg-[--color-aqua-dark] transition">
           Comprar entradas
         </button>

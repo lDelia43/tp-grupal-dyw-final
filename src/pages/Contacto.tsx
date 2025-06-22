@@ -63,7 +63,7 @@ const Contacto = () => {
                 📞 Teléfono: (011) 4000-0000
               </li>
               <li>
-                📧 Email: contacto@trepark.com.ar
+                📧 Email: contacto@Aqualandia.com.ar
               </li>
               <li>
                 🕒 Horarios: Lunes a Domingo de 10 a 18 hs

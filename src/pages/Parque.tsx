@@ -5,7 +5,7 @@ import parque3 from "../assets/images/parque3.jpg"
 const sections = [
   {
     title: "Un espacio de diversión y naturaleza",
-    text: "Trepark es un parque pensado para brindar a niños y familias un entorno seguro, al aire libre, rodeado de naturaleza. Contamos con una amplia variedad de juegos, espacios recreativos y zonas de descanso.",
+    text: "Aqualandia es un parque pensado para brindar a niños y familias un entorno seguro, al aire libre, rodeado de naturaleza. Contamos con una amplia variedad de juegos, espacios recreativos y zonas de descanso.",
     image: parque1,
     reverse: false,
   },
