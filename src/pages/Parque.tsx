@@ -28,7 +28,7 @@ const Parque = () => {
     <main className="w-full">
       {/* SECCIONES */}
       {sections.map((section, idx) => (
-        <section key={idx} className={`py-16 bg-${idx % 2 === 0 ? "[--color-neutral-light]" : "white"}`}>
+        <section key={idx} className={`py-16 bg-${idx % 2 === 0 ? "-neutral-light" : "white"}`}>
           <div
             className={`max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10 ${
               section.reverse ? "md:flex-row-reverse" : ""
@@ -40,10 +40,10 @@ const Parque = () => {
               className="w-full md:w-1/2 rounded-lg shadow-lg object-cover"
             />
             <div className="w-full md:w-1/2">
-              <h2 className="text-2xl md:text-3xl font-bold text-[--color-primary-dark] mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-primary-dark mb-4">
                 {section.title}
               </h2>
-              <p className="text-[--color-neutral-dark] text-lg">{section.text}</p>
+              <p className="text-neutral-dark text-lg">{section.text}</p>
             </div>
           </div>
         </section>

@@ -6,6 +6,7 @@ import Footer from "./lib/components/footer/Footer";
 import Parque from "./pages/Parque";
 import Contacto from "./pages/Contacto";
 import Boletos from "./pages/Boletos";
+import ChatbotFlotante from "./lib/components/chat/chat";
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
@@ -21,12 +22,13 @@ function App() {
   return (
     <BrowserRouter basename="/tp-grupal-dyw-final/">
       <div className="min-h-screen flex w-full">
+        
         <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} isMobile={isMobile} />
 
         <div
           className="flex flex-col flex-1 overflow-hidden"
         >
-          <main className="flex-1 bg-primary overflow-auto">
+          <main className="flex-1 bg-primary overflow-auto md:ml-64">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="*" element={<Navigate to="/" replace />} />
@@ -38,6 +40,7 @@ function App() {
 
           <Footer />
         </div>
+        <ChatbotFlotante />
       </div>
     </BrowserRouter>
   );

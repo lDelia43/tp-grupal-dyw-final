@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Home, Trees, Mail, Ticket } from "lucide-react";
+import logo from "../../../../public/images/aquapark.png";
 
 const links = [
   { to: "/", label: "Home", icon: <Home size={20} /> },
@@ -73,25 +74,21 @@ export default function Sidebar({ isOpen, setIsOpen, isMobile }: SidebarProps) {
         />
       )}
 
+      {/* Sidebar siempre fijo en desktop, deslizable en mobile */}
       <aside
         className={`
-          fixed top-0 left-0 h-full bg-nature text-white z-40
-          transform
-          ${
-            userToggled && isMobile
-              ? "transition-all duration-300 ease-in-out"
-              : ""
-          }
-          ${
-            isMobile
-              ? isOpen
-                ? "translate-x-0 w-64"
-                : "-translate-x-full w-64"
-              : "w-64 translate-x-0 relative"
-          }
+          fixed top-0 left-0 h-full w-64 bg-nature text-white z-40
           flex flex-col
           md:flex-shrink-0
+          transition-transform duration-300
+          md:!transition-none
+          ${isMobile
+            ? isOpen
+              ? "translate-x-0"
+              : "-translate-x-full"
+            : "translate-x-0"}
         `}
+        style={{ minHeight: "100vh" }}
       >
         {/* No mostrar botón toggle en desktop */}
         {isMobile && (
@@ -104,11 +101,16 @@ export default function Sidebar({ isOpen, setIsOpen, isMobile }: SidebarProps) {
           </button>
         )}
 
-        {/* Título solo cuando abierto */}
+        {/* Título y logo */}
         {isOpen && (
-          <h2 className="text-2xl font-bold mb-8 px-4 select-none mt-12">
-            Aqualandia
-          </h2>
+          <div className="flex items-center gap-3 mb-8 px-4 mt-12 select-none">
+            <img
+              src={logo}
+              alt="Logo Aqualandia"
+              className="h-10 w-10 object-contain rounded-full bg-white p-1 shadow"
+            />
+            <h2 className="text-2xl font-bold">Aqualandia</h2>
+          </div>
         )}
 
         {/* Links */}
