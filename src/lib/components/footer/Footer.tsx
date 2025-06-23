@@ -25,7 +25,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="underline text-accent hover:text-accent-dark text-sm"
           >
-            Sitio del grupo
+            <link rel="Sitio del grupo" href="https://ldelia43.github.io/tp-grupal-dyw/" />
           </a>
           <div className="mt-2 text-xs">
             Trabajo grupal - Materia Diseño y Desarrollo Web (Comisión 11842 - Grupo 6)
