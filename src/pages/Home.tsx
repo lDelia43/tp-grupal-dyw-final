@@ -24,7 +24,7 @@ const Home = () => {
       </section>
 
       {/* DESCRIPCIÓN */}
-      <section className="py-8 bg-primary-light flex justify-center">
+      <section className="py-8 bg-primary flex justify-center">
         <div className="max-w-2xl w-full mx-4 bg-white rounded-2xl shadow-lg p-10 text-center border border-primary/20">
           <h2 className="text-3xl font-bold mb-4 text-primary">¿Qué es Aqualandia?</h2>
           <p className="text-lg text-neutral-700 leading-relaxed">
@@ -36,7 +36,7 @@ const Home = () => {
       </section>
 
       {/* ATRACCIONES */}
-      <section className="py-8 bg-primary-light flex justify-center">
+      <section className="py-8 bg-primary flex justify-center">
         <div className="max-w-6xl w-full mx-4 bg-white rounded-2xl shadow-lg p-10 border border-primary/20">
           <h2 className="text-3xl font-bold text-center text-primary-dark mb-8">
             Atracciones para todas las edades
@@ -58,7 +58,7 @@ const Home = () => {
             ].map((item, idx) => (
               <div
                 key={idx}
-                className="bg-primary-light rounded-xl shadow-md overflow-hidden text-center p-6 hover:scale-105 transition border border-primary/10"
+                className="bg-accent-light rounded-xl shadow-md overflow-hidden text-center p-6 hover:scale-105 transition border border-primary/10"
               >
                 <img src={item.img} alt={item.title} className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-semibold text-primary">{item.title}</h3>
@@ -69,19 +69,19 @@ const Home = () => {
       </section>
 
       {/* INFO VISITA */}
-      <section className="py-8 bg-primary-light flex justify-center">
+      <section className="py-8 bg-primary flex justify-center">
         <div className="max-w-5xl w-full mx-4 bg-white rounded-2xl shadow-lg p-10 text-center border border-primary/20">
           <h2 className="text-3xl font-bold mb-6 text-primary-dark">Planificá tu visita</h2>
           <div className="grid md:grid-cols-3 gap-8 text-neutral-dark">
-            <div>
+            <div className="bg-accent-light rounded-xl shadow-md overflow-hidden text-center p-6 hover:scale-105 transition border border-primary/10">
               <h3 className="text-xl font-semibold mb-2">Horarios</h3>
               <p>Lunes a Domingos de 10:00 a 18:00 hs</p>
             </div>
-            <div>
+            <div className="bg-accent-light rounded-xl shadow-md overflow-hidden text-center p-6 hover:scale-105 transition border border-primary/10">
               <h3 className="text-xl font-semibold mb-2">Ubicación</h3>
               <p>Lima 717, CABA, Argentina</p>
             </div>
-            <div>
+            <div className="bg-accent-light rounded-xl shadow-md overflow-hidden text-center p-6 hover:scale-105 transition border border-primary/10">
               <h3 className="text-xl font-semibold mb-2">Reservas</h3>
               <p>Grupos escolares, cumpleaños, eventos</p>
             </div>
@@ -96,7 +96,7 @@ const Home = () => {
       </section>
 
       {/* CTA FINAL */}
-      <section className="py-8 bg-primary-light flex justify-center">
+      <section className="py-8 bg-primary flex justify-center">
         <div className="max-w-2xl w-full mx-4 bg-white rounded-2xl shadow-lg p-10 text-center border border-primary/20">
           <h2 className="text-3xl font-bold mb-4 text-primary-dark">¿Listos para la aventura?</h2>
           <p className="text-lg mb-6 text-neutral-700">
