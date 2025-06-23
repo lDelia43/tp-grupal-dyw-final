@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Integrantes y leyenda */}
         <div className="text-center md:text-left">
-          <div className="font-semibold mb-1">Integrantes:</div>
+          <div className="font-semibold mb-1">Integrantes: </div>
           <ul className="text-sm mb-2">
             {integrantes.map((nombre) => (
               <li key={nombre}>{nombre}</li>
