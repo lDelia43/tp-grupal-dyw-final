@@ -3,7 +3,7 @@ import uadeLogo from "../../../assets/images/uade.png";
 const integrantes = [
   "Leonel Jesus D Elia",
   "Matias Ariel Lepe",
-  "Nombre Apellido 3",
+  "Bautista Lammertyn",
   // Agrega más si es necesario
 ];
 
