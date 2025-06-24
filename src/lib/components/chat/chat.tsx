@@ -30,7 +30,7 @@ const ChatbotFlotante = () => {
             fixed bottom-20 right-5 w-14 h-14 rounded-full
             bg-accent text-white text-2xl
             flex items-center justify-center
-            shadow-lg z-50
+            shadow-lg z-200
             hover:bg-accent-dark
             transition"
           aria-label="Abrir chat"
