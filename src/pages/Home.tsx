@@ -104,7 +104,7 @@ const Home = () => {
           </p>
           <Link
             to="/boletos"
-            className="bg-aqua text-black px-8 py-3 rounded-full font-bold hover:bg-aqua-dark transition inline-block shadow"
+            className="bg-primary text-white px-8 py-3 rounded-full font-bold hover:bg-aqua-dark transition inline-block shadow"
           >
             Comprar entradas
           </Link>
