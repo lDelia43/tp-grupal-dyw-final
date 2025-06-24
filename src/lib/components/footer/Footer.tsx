@@ -27,12 +27,6 @@ export default function Footer() {
           >
             Sitio del grupo
           </a>
-          <a
-            href="/mapa"
-            className="underline text-accent hover:text-accent-dark text-sm block mb-1"
-          >
-            Mapa del sitio
-          </a>
           <div className="mt-2 text-xs">
             Trabajo grupal - Materia Diseño y Desarrollo Web (Comisión 11842 - Grupo 6)
           </div>
