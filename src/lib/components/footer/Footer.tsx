@@ -9,7 +9,7 @@ const integrantes = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-nature text-white py-6 px-4 mt-auto z-100">
+    <footer className="w-full bg-nature text-white py-6 px-4 mt-auto md:z-100">
       <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:items-center justify-between gap-6">
         {/* Integrantes y leyenda */}
         <div className="text-center md:text-left flex-1">
